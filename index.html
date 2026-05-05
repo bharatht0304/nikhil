@@ -1,58 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil M S - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <h1> NIKHIL M S</h1>
-    <p>Personal Website</p>
-</header>
+    <div class="background-elements">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
 
-<section>
-    <h2>About Me</h2>
-    <p>Name:Nikhil M S</p>
-    <p>Education:currently pursuing BE in electronics and communications at Banglore Institute of Technology</p>
-    <p>Contact: msnikhil39@email.com</p>
-</section>
+    <div class="container">
+        <header class="hero">
+            <div class="hero-content">
+                <h1>Nikhil M S</h1>
+                <p class="subtitle">Personal Portfolio</p>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpeg" alt="Nikhil M S"
+                    onerror="this.src='https://ui-avatars.com/api/?name=Nikhil+MS&background=0D8ABC&color=fff&size=220'">
+            </div>
+        </header>
 
-<section>
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML ,C LANGUAGE,PYTHON.</li>
-        <li>Communication,LEADERSHIP QUALITIES,ACTIVE LISTENING,HARD WORKING</li>
-    </ul>
-</section>
+        <main>
+            <section class="card about-card fade-in">
+                <h2>About Me</h2>
+                <div class="info-group">
+                    <span class="label">Name:</span> <span class="value">Nikhil M S</span>
+                </div>
+                <div class="info-group">
+                    <span class="label">Education:</span> <span class="value">Currently pursuing BE in Electronics and
+                        Communications at Bangalore Institute of Technology</span>
+                </div>
+                <div class="info-group">
+                    <span class="label">Contact:</span> <span class="value">msnikhil39@email.com</span>
+                </div>
+            </section>
 
-<section>
-    <h2>Achievements</h2>
-    <ul>
-        <li>Won competition(Hackathon ece dep)</li>
-        <li>school head boy</li>
-        <li>Distinction in pu and school</li>
-        <li>state level basketball player</li>
-        <li>district level athlete</li>
-    </ul>
-</section>
-<section>
+            <div class="grid-2">
+                <section class="card fade-in delay-1">
+                    <h2>Skills</h2>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">C Language</span>
+                        <span class="tag">Python</span>
+                        <span class="tag tag-soft">Communication</span>
+                        <span class="tag tag-soft">Leadership Qualities</span>
+                        <span class="tag tag-soft">Active Listening</span>
+                        <span class="tag tag-soft">Hard Working</span>
+                    </div>
+                </section>
 
-    <h2>My Photo</h2>
+                <section class="card fade-in delay-2">
+                    <h2>Achievements</h2>
+                    <ul class="achievement-list">
+                        <li>
+                            <span class="bullet">🏆</span>
+                            <p>Won competition (Hackathon ECE Dept)</p>
+                        </li>
+                        <li>
+                            <span class="bullet">⭐</span>
+                            <p>School Head Boy</p>
+                        </li>
+                        <li>
+                            <span class="bullet">🎓</span>
+                            <p>Distinction in PU and School</p>
+                        </li>
+                        <li>
+                            <span class="bullet">🏀</span>
+                            <p>State Level Basketball Player</p>
+                        </li>
+                        <li>
+                            <span class="bullet">🏃</span>
+                            <p>District Level Athlete</p>
+                        </li>
+                    </ul>
+                </section>
 
-    <img src="profile.jpeg" width="200">
+                <section class="card fade-in delay-3" style="grid-column: 1 / -1;">
+                    <h2>Hobbies</h2>
+                    <div class="tags">
+                        <span class="tag tag-hobby">🎮 Gaming</span>
+                        <span class="tag tag-hobby">🎵 Music</span>
+                        <span class="tag tag-hobby">📚 Reading Books</span>
+                        <span class="tag tag-hobby">✈️ Traveling</span>
+                    </div>
+                </section>
+            </div>
+        </main>
 
-</section>
-
-<section>
-    <h2>Hobbies</h2>
-    <p>Gaming, Music,Reading books, Traveling</p>
-</section>
-
-<footer>
-    <p>© 2026 Nikhil M S</p>
-</footer>
+        <footer>
+            <p>© 2026 Nikhil M S. Designed with <span class="heart">♥</span></p>
+        </footer>
+    </div>
 
 </body>
+
 </html>
